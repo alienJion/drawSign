@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF0A0F3A92F95A5BC352CE5 /* Pods_MyDrawSign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772130F4EAE0F7090871D5AE /* Pods_MyDrawSign.framework */; };
+		937CED8322684CAB0019D00C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 937CED8222684CAB0019D00C /* AppDelegate.m */; };
+		937CED8622684CAB0019D00C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937CED8522684CAB0019D00C /* ViewController.m */; };
+		937CED8922684CAB0019D00C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937CED8722684CAB0019D00C /* Main.storyboard */; };
+		937CED8B22684CAC0019D00C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937CED8A22684CAC0019D00C /* Assets.xcassets */; };
+		937CED8E22684CAC0019D00C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937CED8C22684CAC0019D00C /* LaunchScreen.storyboard */; };
+		937CED9122684CAC0019D00C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 937CED9022684CAC0019D00C /* main.m */; };
+		937CEDD022684EDB0019D00C /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 937CEDCB22684EDB0019D00C /* DrawView.m */; };
+		937CEDD122684EDB0019D00C /* SignBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 937CEDCD22684EDB0019D00C /* SignBezierPath.m */; };
+		937CEDD222684EDB0019D00C /* DrawSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937CEDCF22684EDB0019D00C /* DrawSignViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DFD8918D99AC7C1DD363108 /* Pods-MyDrawSign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDrawSign.debug.xcconfig"; path = "Target Support Files/Pods-MyDrawSign/Pods-MyDrawSign.debug.xcconfig"; sourceTree = "<group>"; };
+		1AFC3FB0FEB36BD0B8F9639D /* Pods-MyDrawSign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDrawSign.release.xcconfig"; path = "Target Support Files/Pods-MyDrawSign/Pods-MyDrawSign.release.xcconfig"; sourceTree = "<group>"; };
+		772130F4EAE0F7090871D5AE /* Pods_MyDrawSign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDrawSign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		937CED7E22684CAB0019D00C /* MyDrawSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDrawSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		937CED8122684CAB0019D00C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		937CED8222684CAB0019D00C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		937CED8422684CAB0019D00C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		937CED8522684CAB0019D00C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		937CED8822684CAB0019D00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		937CED8A22684CAC0019D00C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		937CED8D22684CAC0019D00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		937CED8F22684CAC0019D00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937CED9022684CAC0019D00C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		937CEDC922684EDB0019D00C /* DrawSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawSignViewController.h; sourceTree = "<group>"; };
+		937CEDCB22684EDB0019D00C /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		937CEDCC22684EDB0019D00C /* SignBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignBezierPath.h; sourceTree = "<group>"; };
+		937CEDCD22684EDB0019D00C /* SignBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignBezierPath.m; sourceTree = "<group>"; };
+		937CEDCE22684EDB0019D00C /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		937CEDCF22684EDB0019D00C /* DrawSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawSignViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		937CED7B22684CAB0019D00C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF0A0F3A92F95A5BC352CE5 /* Pods_MyDrawSign.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048B317F21B1E8CBC32E5937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				772130F4EAE0F7090871D5AE /* Pods_MyDrawSign.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16F804FB4C80C428B204BB37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DFD8918D99AC7C1DD363108 /* Pods-MyDrawSign.debug.xcconfig */,
+				1AFC3FB0FEB36BD0B8F9639D /* Pods-MyDrawSign.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		937CED7522684CAB0019D00C = {
+			isa = PBXGroup;
+			children = (
+				937CED8022684CAB0019D00C /* MyDrawSign */,
+				937CED7F22684CAB0019D00C /* Products */,
+				16F804FB4C80C428B204BB37 /* Pods */,
+				048B317F21B1E8CBC32E5937 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		937CED7F22684CAB0019D00C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				937CED7E22684CAB0019D00C /* MyDrawSign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		937CED8022684CAB0019D00C /* MyDrawSign */ = {
+			isa = PBXGroup;
+			children = (
+				937CEDC822684EDB0019D00C /* DrawSign */,
+				937CED8122684CAB0019D00C /* AppDelegate.h */,
+				937CED8222684CAB0019D00C /* AppDelegate.m */,
+				937CED8422684CAB0019D00C /* ViewController.h */,
+				937CED8522684CAB0019D00C /* ViewController.m */,
+				937CED8722684CAB0019D00C /* Main.storyboard */,
+				937CED8A22684CAC0019D00C /* Assets.xcassets */,
+				937CED8C22684CAC0019D00C /* LaunchScreen.storyboard */,
+				937CED8F22684CAC0019D00C /* Info.plist */,
+				937CED9022684CAC0019D00C /* main.m */,
+			);
+			path = MyDrawSign;
+			sourceTree = "<group>";
+		};
+		937CEDC822684EDB0019D00C /* DrawSign */ = {
+			isa = PBXGroup;
+			children = (
+				937CEDC922684EDB0019D00C /* DrawSignViewController.h */,
+				937CEDCF22684EDB0019D00C /* DrawSignViewController.m */,
+				937CEDCA22684EDB0019D00C /* SignView */,
+			);
+			path = DrawSign;
+			sourceTree = "<group>";
+		};
+		937CEDCA22684EDB0019D00C /* SignView */ = {
+			isa = PBXGroup;
+			children = (
+				937CEDCB22684EDB0019D00C /* DrawView.m */,
+				937CEDCC22684EDB0019D00C /* SignBezierPath.h */,
+				937CEDCD22684EDB0019D00C /* SignBezierPath.m */,
+				937CEDCE22684EDB0019D00C /* DrawView.h */,
+			);
+			path = SignView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		937CED7D22684CAB0019D00C /* MyDrawSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937CED9422684CAC0019D00C /* Build configuration list for PBXNativeTarget "MyDrawSign" */;
+			buildPhases = (
+				36A7918A5BCADAA4D5B62994 /* [CP] Check Pods Manifest.lock */,
+				937CED7A22684CAB0019D00C /* Sources */,
+				937CED7B22684CAB0019D00C /* Frameworks */,
+				937CED7C22684CAB0019D00C /* Resources */,
+				5F142F999760CA1EC2D84C3B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDrawSign;
+			productName = MyDrawSign;
+			productReference = 937CED7E22684CAB0019D00C /* MyDrawSign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		937CED7622684CAB0019D00C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ouwen;
+				TargetAttributes = {
+					937CED7D22684CAB0019D00C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 937CED7922684CAB0019D00C /* Build configuration list for PBXProject "MyDrawSign" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 937CED7522684CAB0019D00C;
+			productRefGroup = 937CED7F22684CAB0019D00C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				937CED7D22684CAB0019D00C /* MyDrawSign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		937CED7C22684CAB0019D00C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937CED8E22684CAC0019D00C /* LaunchScreen.storyboard in Resources */,
+				937CED8B22684CAC0019D00C /* Assets.xcassets in Resources */,
+				937CED8922684CAB0019D00C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36A7918A5BCADAA4D5B62994 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyDrawSign-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F142F999760CA1EC2D84C3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyDrawSign/Pods-MyDrawSign-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyDrawSign/Pods-MyDrawSign-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyDrawSign/Pods-MyDrawSign-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		937CED7A22684CAB0019D00C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937CEDD222684EDB0019D00C /* DrawSignViewController.m in Sources */,
+				937CED8622684CAB0019D00C /* ViewController.m in Sources */,
+				937CEDD022684EDB0019D00C /* DrawView.m in Sources */,
+				937CED9122684CAC0019D00C /* main.m in Sources */,
+				937CEDD122684EDB0019D00C /* SignBezierPath.m in Sources */,
+				937CED8322684CAB0019D00C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		937CED8722684CAB0019D00C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				937CED8822684CAB0019D00C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		937CED8C22684CAC0019D00C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				937CED8D22684CAC0019D00C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		937CED9222684CAC0019D00C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		937CED9322684CAC0019D00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		937CED9522684CAC0019D00C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DFD8918D99AC7C1DD363108 /* Pods-MyDrawSign.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8XSPV28DU;
+				INFOPLIST_FILE = MyDrawSign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XJ.MyDrawSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		937CED9622684CAC0019D00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFC3FB0FEB36BD0B8F9639D /* Pods-MyDrawSign.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8XSPV28DU;
+				INFOPLIST_FILE = MyDrawSign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XJ.MyDrawSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		937CED7922684CAB0019D00C /* Build configuration list for PBXProject "MyDrawSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937CED9222684CAC0019D00C /* Debug */,
+				937CED9322684CAC0019D00C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937CED9422684CAC0019D00C /* Build configuration list for PBXNativeTarget "MyDrawSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937CED9522684CAC0019D00C /* Debug */,
+				937CED9622684CAC0019D00C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 937CED7622684CAB0019D00C /* Project object */;
+}
