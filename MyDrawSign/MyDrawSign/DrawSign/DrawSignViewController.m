@@ -126,7 +126,7 @@
     [self.drawView undo];
 }
 -(void)submitSignSignDraw:(UIButton *)btn{
-//    为保证签名可以放到任何背景颜色的view上，需要给签名view设置成透明色
+    //    为保证签名可以放到任何背景颜色的view上，需要给签名view设置成透明色
     UIColor *color = self.drawView.backgroundColor;//获取签名view的原背景颜色
     self.drawView.backgroundColor = [UIColor clearColor];//修改背景颜色为透明色
     //    1、创建位图上下文
@@ -138,6 +138,7 @@
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     if (self.drawSignViewBlock) {
         self.drawSignViewBlock(image);
+        [self dismissViewControllerAnimated:YES completion:nil];
     }
     //    4、关闭上下文
     UIGraphicsEndImageContext();

@@ -118,10 +118,10 @@
 		937CEDCA22684EDB0019D00C /* SignView */ = {
 			isa = PBXGroup;
 			children = (
+				937CEDCE22684EDB0019D00C /* DrawView.h */,
 				937CEDCB22684EDB0019D00C /* DrawView.m */,
 				937CEDCC22684EDB0019D00C /* SignBezierPath.h */,
 				937CEDCD22684EDB0019D00C /* SignBezierPath.m */,
-				937CEDCE22684EDB0019D00C /* DrawView.h */,
 			);
 			path = SignView;
 			sourceTree = "<group>";
